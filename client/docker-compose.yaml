@@ -1,0 +1,8 @@
+ersion : "3.8"
+services: 
+   postgres:
+     image: "postgres"
+     restart: "always"
+     environment:
+       - POSTGRES_PASSWORD=pass123
+       - POSTGRES_DB=jira_development 
